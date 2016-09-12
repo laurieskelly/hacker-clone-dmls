@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HackerCloneDmls</title>
+  <title>HackerClone</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div class="container">
+  <div class="header">
+    <div class="left">
+      HackerClone
+    </div>
+
+    <div class="right">
+      <span><a href="/login">login</a></span>
+      <span><a href="/users/new">signup</a></span>
+    </div>
+  </div>
 <%= yield %>
+</div>
 
 </body>
 </html>

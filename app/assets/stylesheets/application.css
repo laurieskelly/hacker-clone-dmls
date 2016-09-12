@@ -13,3 +13,155 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin: 20px auto;
+  width: 70%;
+  padding: 20px;
+  border: 1px dotted black;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 600px;
+  background-size: 100%;
+}
+
+
+.header p {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em;
+}
+
+.header h2 {
+    text-align: left;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0em;
+
+}
+
+.separator {
+    margin-top: 1em;
+    border: 2px #888 solid;
+}
+
+
+.content-wrapper {
+    clear:both;
+    width: 80%;
+    margin: 120px auto 20px;
+    text-align: center;
+    background-color: rgba(200,200,46,0.8);
+    /*border-width: 2px;
+    border-style: double;
+    border-color: orangered;*/
+}
+
+.content-container {
+    display: inline-block;
+    text-align: left;
+    min-width: 80%;
+    max-width: 100%;
+
+
+}
+
+.right a, .left a {
+    text-decoration: none;
+    color: #444;
+}
+
+.nav span {
+    color: orangered;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.right {
+    float:right;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+
+form {
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+form label {
+    margin-right: 20px;
+}
+
+form input {
+    display: block;
+    margin: 10px 10px 20px 0px;
+    height: 2em;
+}
+
+form input.radio[type="radio"]{
+    display:inline;
+
+}
+
+input[type="text"] {
+    height: 1.5em;
+    width: 200px;
+    padding-left: 5px;
+}
+
+
+table.users {
+    max-width: 100%;
+    border-bottom: 1px solid #888;
+}
+
+table.users tr.user-row:first-of-type {
+    border-top: none;
+}
+
+table.users tr.user-row td {
+    border-top: 1px solid #888;
+    padding-top: 20px;
+}
+
+table.users tr.user-row td.name-avatar{
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+table.users tr.user-row td.positions {
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+td.add-position {
+    text-align: left;
+    padding: 10px;
+}
+
+ul {
+    -webkit-margin-before: 0.5em;
+    -webkit-padding-start: 0em;
+    list-style: none;
+    margin-left: 10px;
+}
+
+table td a {
+    color: #555;
+    text-decoration: none;
+}
+
+table td h3 {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    margin: 0px;
+    color: #444;
+}
+
