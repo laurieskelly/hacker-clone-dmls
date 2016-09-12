@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+
+
+$('.logout-link').on('click', function( event ){
+  event.preventDefault();
+  $.ajax({
+      url: 'sessions/logout',
+      type: 'delete'
+  })
+})
+
+})

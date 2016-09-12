@@ -1,0 +1,8 @@
+<h2>SIGN UP, sucker</h2>
+<%= form_tag("/users", method: "post") do %>
+ <%= label_tag(:username, "username") %>
+  <%= text_field_tag(:username) %>
+  <%= label_tag(:password, "password") %>
+  <%= password_field_tag(:password) %>
+  <%= submit_tag("register") %>
+<% end %>
